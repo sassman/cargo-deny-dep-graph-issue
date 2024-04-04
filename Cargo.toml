@@ -1,0 +1,7 @@
+[package]
+name = "cargo-deny-dep-graph-issue"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sqlx = { version = "0.7.4", default-features = false, features = ["runtime-tokio-rustls", "postgres", "json"] }
